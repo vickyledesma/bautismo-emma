@@ -7,15 +7,9 @@
       --rose-gold-light: #c98b78;
       --gold: #c8a96e;
       --gold-light: #d4b896;
-      --brown-light: #3e2518;
-      --text-dark: #1a0d06;
-      --text-mid: #30180e;
-    }
-
-    @keyframes bgShift {
-      0%   { background-position: 0% 50%; }
-      50%  { background-position: 100% 50%; }
-      100% { background-position: 0% 50%; }
+      --brown-light: #5a3a28;
+      --text-dark: #2c1a0e;
+      --text-mid: #4a2e1e;
     }
 
     body {
@@ -23,9 +17,7 @@
       display: flex;
       align-items: center;
       justify-content: center;
-      background-image: linear-gradient(135deg, #e8e0d8, #ddd0c4, #ede5dc, #d8cec4, #e8e0d8);
-      background-size: 400% 400%;
-      animation: bgShift 12s ease infinite;
+      background: #e8e0d8;
       font-family: 'Cormorant Garamond', Georgia, serif;
       padding: 30px 16px;
     }
@@ -113,7 +105,7 @@
     .brush-bottom {
       position: absolute;
       bottom: 0; right: 0;
-      width: 55%; height: 160px;
+      width: 100%; height: 260px;
       z-index: 0;
       opacity: 0.45;
       transform: rotate(180deg);
