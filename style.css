@@ -1,5 +1,7 @@
 * { margin: 0; padding: 0; box-sizing: border-box; }
 
+    :root { color-scheme: light only; }
+
     :root {
       --cream: #f9f5ef;
       --warm-white: #fdfaf6;
